@@ -1,0 +1,29 @@
+# AutoLook - Dependencies
+# Phase 1: Foundation
+# (no extra deps — uses stdlib sqlite3, json, pathlib)
+
+# Phase 2: Text Detection
+# (no extra deps — pure Python unicode + regex)
+
+# Phase 3: Image/NSFW Detection
+# Yahoo OpenNSFW (same model as OpenNSFW2) via ONNX — no TensorFlow needed
+opennsfw-onnx>=0.1.0
+onnxruntime>=1.17.0
+nudenet>=3.0.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Phase 4: Video Detection
+ffmpeg-python>=0.2.0
+imageio-ffmpeg>=0.5.0
+
+# Phase 5: OCR
+easyocr>=1.7.0
+
+# Keras `opennsfw2` is optional; ONNX OpenNSFW is the default on Python 3.14.
+
+# Phase 6: GUI
+PyQt6>=6.5.0
+
+# Phase 8: Packaging
+pyinstaller>=6.0.0

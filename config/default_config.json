@@ -1,0 +1,72 @@
+{
+  "netmonitor_db_path": "C:\\ProgramData\\Net Monitor for Employees Pro\\data\\reporting.db",
+  "recording_path": "C:\\ProgramData\\Net Monitor for Employees Pro\\data\\recordings",
+  "autolook_db_path": "./data/incidents.db",
+  "visits_db_path": "./data/visits.db",
+  "thumbnail_path": "./data/thumbnails",
+  "screenshot_path": "./data/screenshots",
+
+  "nsfw_threshold_low": 0.2,
+  "nsfw_threshold_medium": 0.4,
+  "nsfw_threshold_high": 0.6,
+  "nsfw_sensitivity": "medium",
+  "nsfw_engine": "opennsfw",
+
+  "ocr_hangul_min_confidence": 0.55,
+
+  "sample_interval_seconds": 3,
+
+  "alert_nsfw": true,
+  "alert_korea": true,
+  "alert_sound": true,
+  "dedupe_minutes": 15,
+
+  "media_scan_images_first": true,
+  "max_new_images_per_poll": 40,
+  "max_new_videos_per_poll": 1,
+  "max_video_frames": 0,
+  "include_video": false,
+
+  "watched_websites": [
+    "youtube.com",
+    "facebook.com",
+    "x.com",
+    "twitter.com",
+    "discord.com",
+    "discord.gg",
+    "telegram.org",
+    "web.telegram.org",
+    "web.whatsapp.com",
+    "whatsapp.com",
+    "tiktok.com",
+    "instagram.com",
+    "reddit.com",
+    "line.me",
+    "slack.com"
+  ],
+  "watched_apps": [
+    "discord.exe",
+    "telegram.exe",
+    "WhatsApp.exe",
+    "KakaoTalk.exe",
+    "Line.exe",
+    "slack.exe"
+  ],
+  "korean_domains": [
+    "naver.com",
+    "daum.net",
+    "*.kr"
+  ],
+  "english_keywords": [
+    "korean",
+    "korea",
+    "seoul",
+    "hangul"
+  ],
+  "custom_keywords": [],
+
+  "scan_interval_seconds": 30,
+  "skip_keylog_keystrokes": true,
+
+  "host_aliases": {}
+}

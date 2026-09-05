@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# AutoLook runtime data
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Local machine config (paths, passwords)
+config/user_config.json
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.spec.bak
+
+# Net Monitor proprietary binaries (do not publish)
+Net Monitor/**/*.exe
+Net Monitor/**/*.msi
